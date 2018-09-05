@@ -42,7 +42,7 @@ namespace QuantumLottery
             // myClient.Proxy = new WebProxy("http://localhost:8888");
 
             // Ensure no proxy
-            // myClient.Proxy = null;
+            myClient.Proxy = null;
             Uri randomHexUri = new Uri(randomHexUrl);
 
             while (lineNumber <= numLines)
