@@ -14,6 +14,7 @@ namespace QuantumLottery
 
         static void Main(string[] args)
         {
+            // Test
             PrintLottoNums();
         }
         
